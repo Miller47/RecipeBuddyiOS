@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0C791E197F0BD700EF9F20 /* IngredientsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C791D197F0BD700EF9F20 /* IngredientsCell.m */; };
+		2F235BA51978477E0064DBD5 /* PoultryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F235BA41978477E0064DBD5 /* PoultryViewController.m */; };
+		2F235BA8197850A30064DBD5 /* DessertsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F235BA7197850A30064DBD5 /* DessertsViewController.m */; };
+		2F235BAB1978515F0064DBD5 /* SaladsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F235BAA1978515F0064DBD5 /* SaladsViewController.m */; };
+		2F235BAE197852250064DBD5 /* DrinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F235BAD197852250064DBD5 /* DrinksViewController.m */; };
+		2F60AE1F197C6F3E0088634F /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F60AE1E197C6F3E0088634F /* WebViewController.m */; };
+		2F692E45196CBC6F0075490F /* MappingProvder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F692E44196CBC6F0075490F /* MappingProvder.m */; };
+		2F692E49196D45E00075490F /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F692E48196D45E00075490F /* RecipeViewController.m */; };
+		2F692E4C196D45FA0075490F /* SearchRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F692E4B196D45FA0075490F /* SearchRecipeViewController.m */; };
+		2F692E50196D47700075490F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F692E4F196D47700075490F /* SWRevealViewController.m */; };
+		2F692E5C196D5D6F0075490F /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F692E5B196D5D6F0075490F /* SideBarViewController.m */; };
+		2F692E5F196DABD90075490F /* ConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F692E5E196DABD90075490F /* ConverterViewController.m */; };
+		2F692E64196F21990075490F /* Recipes.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F692E63196F21990075490F /* Recipes.m */; };
+		2F7DDEEC198F3037001E10D5 /* UIViewController+EmptyBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7DDEEB198F3037001E10D5 /* UIViewController+EmptyBackButton.m */; };
+		2F805BDA1975D0C800F06DEE /* RecipeDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F805BD91975D0C800F06DEE /* RecipeDetails.m */; };
+		2F805BDD197841A800F06DEE /* MeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F805BDC197841A800F06DEE /* MeatViewController.m */; };
+		2F990C881971B2AB0026E316 /* RecipeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F990C871971B2AB0026E316 /* RecipeViewCell.m */; };
+		2F9F88081989E8F0007C2852 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9F88071989E8F0007C2852 /* SystemConfiguration.framework */; };
 		2FB09AB6196B9CA2006C813B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB09AB5196B9CA2006C813B /* Foundation.framework */; };
 		2FB09AB8196B9CA2006C813B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB09AB7196B9CA2006C813B /* CoreGraphics.framework */; };
 		2FB09ABA196B9CA2006C813B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB09AB9196B9CA2006C813B /* UIKit.framework */; };
@@ -14,14 +32,16 @@
 		2FB09AC2196B9CA2006C813B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB09AC1196B9CA2006C813B /* main.m */; };
 		2FB09AC6196B9CA2006C813B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB09AC5196B9CA2006C813B /* AppDelegate.m */; };
 		2FB09AC9196B9CA2006C813B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB09AC7196B9CA2006C813B /* Main_iPhone.storyboard */; };
-		2FB09ACC196B9CA2006C813B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB09ACA196B9CA2006C813B /* Main_iPad.storyboard */; };
-		2FB09ACF196B9CA2006C813B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB09ACE196B9CA2006C813B /* ViewController.m */; };
 		2FB09AD1196B9CA2006C813B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB09AD0196B9CA2006C813B /* Images.xcassets */; };
 		2FB09AD8196B9CA2006C813B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB09AD7196B9CA2006C813B /* XCTest.framework */; };
 		2FB09AD9196B9CA2006C813B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB09AB5196B9CA2006C813B /* Foundation.framework */; };
 		2FB09ADA196B9CA2006C813B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB09AB9196B9CA2006C813B /* UIKit.framework */; };
 		2FB09AE2196B9CA2006C813B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FB09AE0196B9CA2006C813B /* InfoPlist.strings */; };
 		2FB09AE4196B9CA2006C813B /* RecipesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB09AE3196B9CA2006C813B /* RecipesTests.m */; };
+		2FB27FCE1989FB7200900048 /* GenericTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB27FCD1989FB7200900048 /* GenericTableViewController.m */; };
+		2FE01A1A196F80CD00716B4B /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE01A19196F80CD00716B4B /* RecipeDetailViewController.m */; };
+		2FE8B84B1990428A00E75418 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8B84A1990428A00E75418 /* Reachability.m */; };
+		D671215736EF432B8851C616 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F67C0B8AE99F4006A0E233A9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F0C791C197F0BD700EF9F20 /* IngredientsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsCell.h; sourceTree = "<group>"; };
+		2F0C791D197F0BD700EF9F20 /* IngredientsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsCell.m; sourceTree = "<group>"; };
+		2F235BA31978477E0064DBD5 /* PoultryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoultryViewController.h; sourceTree = "<group>"; };
+		2F235BA41978477E0064DBD5 /* PoultryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoultryViewController.m; sourceTree = "<group>"; };
+		2F235BA6197850A20064DBD5 /* DessertsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DessertsViewController.h; sourceTree = "<group>"; };
+		2F235BA7197850A30064DBD5 /* DessertsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DessertsViewController.m; sourceTree = "<group>"; };
+		2F235BA91978515F0064DBD5 /* SaladsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaladsViewController.h; sourceTree = "<group>"; };
+		2F235BAA1978515F0064DBD5 /* SaladsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaladsViewController.m; sourceTree = "<group>"; };
+		2F235BAC197852250064DBD5 /* DrinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinksViewController.h; sourceTree = "<group>"; };
+		2F235BAD197852250064DBD5 /* DrinksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinksViewController.m; sourceTree = "<group>"; };
+		2F60AE1D197C6F3E0088634F /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		2F60AE1E197C6F3E0088634F /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		2F692E43196CBC6F0075490F /* MappingProvder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MappingProvder.h; sourceTree = "<group>"; };
+		2F692E44196CBC6F0075490F /* MappingProvder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MappingProvder.m; sourceTree = "<group>"; };
+		2F692E47196D45E00075490F /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		2F692E48196D45E00075490F /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		2F692E4A196D45FA0075490F /* SearchRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchRecipeViewController.h; sourceTree = "<group>"; };
+		2F692E4B196D45FA0075490F /* SearchRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchRecipeViewController.m; sourceTree = "<group>"; };
+		2F692E4E196D47700075490F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2F692E4F196D47700075490F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2F692E5A196D5D6F0075490F /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
+		2F692E5B196D5D6F0075490F /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
+		2F692E5D196DABD90075490F /* ConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterViewController.h; sourceTree = "<group>"; };
+		2F692E5E196DABD90075490F /* ConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterViewController.m; sourceTree = "<group>"; };
+		2F692E62196F21990075490F /* Recipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipes.h; sourceTree = "<group>"; };
+		2F692E63196F21990075490F /* Recipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipes.m; sourceTree = "<group>"; };
+		2F7DDEEA198F3037001E10D5 /* UIViewController+EmptyBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EmptyBackButton.h"; sourceTree = "<group>"; };
+		2F7DDEEB198F3037001E10D5 /* UIViewController+EmptyBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EmptyBackButton.m"; sourceTree = "<group>"; };
+		2F805BD81975D0C800F06DEE /* RecipeDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetails.h; sourceTree = "<group>"; };
+		2F805BD91975D0C800F06DEE /* RecipeDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetails.m; sourceTree = "<group>"; };
+		2F805BDB197841A800F06DEE /* MeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeatViewController.h; sourceTree = "<group>"; };
+		2F805BDC197841A800F06DEE /* MeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeatViewController.m; sourceTree = "<group>"; };
+		2F990C861971B2AB0026E316 /* RecipeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewCell.h; sourceTree = "<group>"; };
+		2F990C871971B2AB0026E316 /* RecipeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewCell.m; sourceTree = "<group>"; };
+		2F9F88071989E8F0007C2852 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2FB09AB2196B9CA2006C813B /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB09AB5196B9CA2006C813B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2FB09AB7196B9CA2006C813B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,15 +101,20 @@
 		2FB09AC4196B9CA2006C813B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2FB09AC5196B9CA2006C813B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2FB09AC8196B9CA2006C813B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		2FB09ACB196B9CA2006C813B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		2FB09ACD196B9CA2006C813B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2FB09ACE196B9CA2006C813B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2FB09AD0196B9CA2006C813B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2FB09AD6196B9CA2006C813B /* RecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB09AD7196B9CA2006C813B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2FB09ADF196B9CA2006C813B /* RecipesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecipesTests-Info.plist"; sourceTree = "<group>"; };
 		2FB09AE1196B9CA2006C813B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2FB09AE3196B9CA2006C813B /* RecipesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipesTests.m; sourceTree = "<group>"; };
+		2FB27FCC1989FB7200900048 /* GenericTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericTableViewController.h; sourceTree = "<group>"; };
+		2FB27FCD1989FB7200900048 /* GenericTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericTableViewController.m; sourceTree = "<group>"; };
+		2FE01A18196F80CD00716B4B /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		2FE01A19196F80CD00716B4B /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		2FE8B8491990428A00E75418 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2FE8B84A1990428A00E75418 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7DC0E15E88A14ED69571178A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F67C0B8AE99F4006A0E233A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +122,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9F88081989E8F0007C2852 /* SystemConfiguration.framework in Frameworks */,
 				2FB09AB8196B9CA2006C813B /* CoreGraphics.framework in Frameworks */,
 				2FB09ABA196B9CA2006C813B /* UIKit.framework in Frameworks */,
 				2FB09AB6196B9CA2006C813B /* Foundation.framework in Frameworks */,
+				D671215736EF432B8851C616 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +143,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F692E46196D45530075490F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2FB09AC4196B9CA2006C813B /* AppDelegate.h */,
+				2FB09AC5196B9CA2006C813B /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2F692E4D196D47350075490F /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2F692E4E196D47700075490F /* SWRevealViewController.h */,
+				2F692E4F196D47700075490F /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		2F692E61196F1F300075490F /* Menu Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2F692E5A196D5D6F0075490F /* SideBarViewController.h */,
+				2F692E5B196D5D6F0075490F /* SideBarViewController.m */,
+			);
+			name = "Menu Navigation";
+			sourceTree = "<group>";
+		};
+		2F7DDEED198F3138001E10D5 /* Empty Back Button */ = {
+			isa = PBXGroup;
+			children = (
+				2F7DDEEA198F3037001E10D5 /* UIViewController+EmptyBackButton.h */,
+				2F7DDEEB198F3037001E10D5 /* UIViewController+EmptyBackButton.m */,
+			);
+			name = "Empty Back Button";
+			sourceTree = "<group>";
+		};
+		2F990C851971B28B0026E316 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F990C861971B2AB0026E316 /* RecipeViewCell.h */,
+				2F990C871971B2AB0026E316 /* RecipeViewCell.m */,
+				2F0C791C197F0BD700EF9F20 /* IngredientsCell.h */,
+				2F0C791D197F0BD700EF9F20 /* IngredientsCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		2FB09AA9196B9CA2006C813B = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +197,7 @@
 				2FB09ADD196B9CA2006C813B /* RecipesTests */,
 				2FB09AB4196B9CA2006C813B /* Frameworks */,
 				2FB09AB3196B9CA2006C813B /* Products */,
+				7DC0E15E88A14ED69571178A /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +213,12 @@
 		2FB09AB4196B9CA2006C813B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2F9F88071989E8F0007C2852 /* SystemConfiguration.framework */,
 				2FB09AB5196B9CA2006C813B /* Foundation.framework */,
 				2FB09AB7196B9CA2006C813B /* CoreGraphics.framework */,
 				2FB09AB9196B9CA2006C813B /* UIKit.framework */,
 				2FB09AD7196B9CA2006C813B /* XCTest.framework */,
+				F67C0B8AE99F4006A0E233A9 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,12 +226,13 @@
 		2FB09ABB196B9CA2006C813B /* Recipes */ = {
 			isa = PBXGroup;
 			children = (
-				2FB09AC4196B9CA2006C813B /* AppDelegate.h */,
-				2FB09AC5196B9CA2006C813B /* AppDelegate.m */,
-				2FB09AC7196B9CA2006C813B /* Main_iPhone.storyboard */,
-				2FB09ACA196B9CA2006C813B /* Main_iPad.storyboard */,
-				2FB09ACD196B9CA2006C813B /* ViewController.h */,
-				2FB09ACE196B9CA2006C813B /* ViewController.m */,
+				2F990C851971B28B0026E316 /* Cells */,
+				2F692E46196D45530075490F /* AppDelegate */,
+				2FB09AED196B9CEA006C813B /* StoryBoards */,
+				2FB09AEE196B9D07006C813B /* Controllers */,
+				2F692E61196F1F300075490F /* Menu Navigation */,
+				2FB09AEF196B9D2A006C813B /* Data */,
+				2F692E4D196D47350075490F /* SWRevealViewController */,
 				2FB09AD0196B9CA2006C813B /* Images.xcassets */,
 				2FB09ABC196B9CA2006C813B /* Supporting Files */,
 			);
@@ -155,6 +268,75 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2FB09AED196B9CEA006C813B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				2FB09AC7196B9CA2006C813B /* Main_iPhone.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		2FB09AEE196B9D07006C813B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F692E4A196D45FA0075490F /* SearchRecipeViewController.h */,
+				2F692E4B196D45FA0075490F /* SearchRecipeViewController.m */,
+				2F692E47196D45E00075490F /* RecipeViewController.h */,
+				2F692E48196D45E00075490F /* RecipeViewController.m */,
+				2F805BDB197841A800F06DEE /* MeatViewController.h */,
+				2F805BDC197841A800F06DEE /* MeatViewController.m */,
+				2F235BA31978477E0064DBD5 /* PoultryViewController.h */,
+				2F235BA41978477E0064DBD5 /* PoultryViewController.m */,
+				2F235BA6197850A20064DBD5 /* DessertsViewController.h */,
+				2F235BA7197850A30064DBD5 /* DessertsViewController.m */,
+				2F235BA91978515F0064DBD5 /* SaladsViewController.h */,
+				2F235BAA1978515F0064DBD5 /* SaladsViewController.m */,
+				2F235BAC197852250064DBD5 /* DrinksViewController.h */,
+				2F235BAD197852250064DBD5 /* DrinksViewController.m */,
+				2FE01A18196F80CD00716B4B /* RecipeDetailViewController.h */,
+				2FE01A19196F80CD00716B4B /* RecipeDetailViewController.m */,
+				2F60AE1D197C6F3E0088634F /* WebViewController.h */,
+				2F60AE1E197C6F3E0088634F /* WebViewController.m */,
+				2F692E5D196DABD90075490F /* ConverterViewController.h */,
+				2F692E5E196DABD90075490F /* ConverterViewController.m */,
+				2F7DDEED198F3138001E10D5 /* Empty Back Button */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2FB09AEF196B9D2A006C813B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2FB27FCB1989FA6500900048 /* Networking */,
+				2F692E43196CBC6F0075490F /* MappingProvder.h */,
+				2F692E44196CBC6F0075490F /* MappingProvder.m */,
+				2F692E62196F21990075490F /* Recipes.h */,
+				2F692E63196F21990075490F /* Recipes.m */,
+				2F805BD81975D0C800F06DEE /* RecipeDetails.h */,
+				2F805BD91975D0C800F06DEE /* RecipeDetails.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		2FB27FCB1989FA6500900048 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2FBB3DBE198F505B0054576F /* Reachability */,
+				2FB27FCC1989FB7200900048 /* GenericTableViewController.h */,
+				2FB27FCD1989FB7200900048 /* GenericTableViewController.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		2FBB3DBE198F505B0054576F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				2FE8B8491990428A00E75418 /* Reachability.h */,
+				2FE8B84A1990428A00E75418 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +344,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FB09AE7196B9CA2006C813B /* Build configuration list for PBXNativeTarget "Recipes" */;
 			buildPhases = (
+				2D6E2E5BD188471C9065B16F /* Check Pods Manifest.lock */,
 				2FB09AAE196B9CA2006C813B /* Sources */,
 				2FB09AAF196B9CA2006C813B /* Frameworks */,
 				2FB09AB0196B9CA2006C813B /* Resources */,
+				94699FAF3CCE413A8CCC03D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +386,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Tyler Miller";
 				TargetAttributes = {
+					2FB09AB1196B9CA2006C813B = {
+						DevelopmentTeam = N2263DH3H7;
+					};
 					2FB09AD5196B9CA2006C813B = {
 						TestTargetID = 2FB09AB1196B9CA2006C813B;
 					};
@@ -231,7 +418,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB09ACC196B9CA2006C813B /* Main_iPad.storyboard in Resources */,
 				2FB09AD1196B9CA2006C813B /* Images.xcassets in Resources */,
 				2FB09AC9196B9CA2006C813B /* Main_iPhone.storyboard in Resources */,
 				2FB09AC0196B9CA2006C813B /* InfoPlist.strings in Resources */,
@@ -248,14 +434,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D6E2E5BD188471C9065B16F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94699FAF3CCE413A8CCC03D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FB09AAE196B9CA2006C813B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB09ACF196B9CA2006C813B /* ViewController.m in Sources */,
+				2F805BDA1975D0C800F06DEE /* RecipeDetails.m in Sources */,
+				2F692E5C196D5D6F0075490F /* SideBarViewController.m in Sources */,
+				2F692E49196D45E00075490F /* RecipeViewController.m in Sources */,
+				2F692E45196CBC6F0075490F /* MappingProvder.m in Sources */,
+				2F692E5F196DABD90075490F /* ConverterViewController.m in Sources */,
+				2F805BDD197841A800F06DEE /* MeatViewController.m in Sources */,
+				2F990C881971B2AB0026E316 /* RecipeViewCell.m in Sources */,
+				2F0C791E197F0BD700EF9F20 /* IngredientsCell.m in Sources */,
 				2FB09AC6196B9CA2006C813B /* AppDelegate.m in Sources */,
+				2F235BAB1978515F0064DBD5 /* SaladsViewController.m in Sources */,
+				2F7DDEEC198F3037001E10D5 /* UIViewController+EmptyBackButton.m in Sources */,
+				2F692E4C196D45FA0075490F /* SearchRecipeViewController.m in Sources */,
+				2F235BA8197850A30064DBD5 /* DessertsViewController.m in Sources */,
+				2F235BAE197852250064DBD5 /* DrinksViewController.m in Sources */,
+				2FE8B84B1990428A00E75418 /* Reachability.m in Sources */,
 				2FB09AC2196B9CA2006C813B /* main.m in Sources */,
+				2F60AE1F197C6F3E0088634F /* WebViewController.m in Sources */,
+				2F692E50196D47700075490F /* SWRevealViewController.m in Sources */,
+				2F692E64196F21990075490F /* Recipes.m in Sources */,
+				2F235BA51978477E0064DBD5 /* PoultryViewController.m in Sources */,
+				2FE01A1A196F80CD00716B4B /* RecipeDetailViewController.m in Sources */,
+				2FB27FCE1989FB7200900048 /* GenericTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,14 +532,6 @@
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		2FB09ACA196B9CA2006C813B /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FB09ACB196B9CA2006C813B /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		2FB09AE0196B9CA2006C813B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -329,6 +559,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -347,6 +578,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -368,7 +600,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tyler Miller (N2263DH3H7)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -379,6 +612,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "8A8901EA-304D-4343-A1C7-7024684EE809";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -387,26 +621,36 @@
 		};
 		2FB09AE8196B9CA2006C813B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC0E15E88A14ED69571178A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tyler Miller (55TSF9YHAP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tyler Miller (55TSF9YHAP)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Recipes/Recipes-Prefix.pch";
 				INFOPLIST_FILE = "Recipes/Recipes-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "87404d07-9397-4997-9f22-14192e21e99f";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		2FB09AE9196B9CA2006C813B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC0E15E88A14ED69571178A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tyler Miller (N2263DH3H7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tyler Miller (N2263DH3H7)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Recipes/Recipes-Prefix.pch";
 				INFOPLIST_FILE = "Recipes/Recipes-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8A8901EA-304D-4343-A1C7-7024684EE809";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +714,7 @@
 				2FB09AE9196B9CA2006C813B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FB09AEA196B9CA2006C813B /* Build configuration list for PBXNativeTarget "RecipesTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +723,7 @@
 				2FB09AEC196B9CA2006C813B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

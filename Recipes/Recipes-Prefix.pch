@@ -5,6 +5,23 @@
 //
 
 #import <Availability.h>
+#import "SWRevealViewController.h"
+#import <RestKit/RestKit.h>
+#import "AFNetworking.h"
+#import "MappingProvder.h"
+#import "SVProgressHUD.h"
+#import <SystemConfiguration/SystemConfiguration.h>
+#import "GenericTableViewController.h"
+#import <UIScrollView+InfiniteScroll.h>
+
+
+
+
+//Yummly API key adn app ID
+#define Yummly_API_kEY @"0ad244c0fd8063f00a481e6c0cc8f4fc"
+#define Yummly_APP_ID @"ef3e29e2"
+
+
 
 #ifndef __IPHONE_5_0
 #warning "This project uses features only available in iOS SDK 5.0 and later."
